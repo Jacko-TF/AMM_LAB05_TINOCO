@@ -10,7 +10,7 @@ namespace AMM_LAB05_TINOCO
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
