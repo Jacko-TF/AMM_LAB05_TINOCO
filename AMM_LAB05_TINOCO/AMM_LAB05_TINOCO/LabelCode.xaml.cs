@@ -17,9 +17,28 @@ namespace AMM_LAB05_TINOCO
             InitializeComponent();
 
             StackLayout stack = new StackLayout();
-            var entry = new Entry { Text = "This is a read-only Entry" }
-            stack.Children.Add(entry);
-            Content = stack;
+            var underlineLabel = new Label
+            { 
+                Text = "This is underlined text. ",
+                TextDecorations = TextDecorations.Underline
+            };
+
+            var underline = new Label
+            {
+                Text = "This is text with strikethrough.",
+                TextDecorations = TextDecorations.Strikethrough
+            };
+
+            var bothLabel = new Label
+            {
+                Text = "This is underlined text with strike through.",
+                TextDecorations = TextDecorations.Underline | TextDecorations.Strikethrough
+            };
+
+            stack.Children.Add(underlineLabel);
+            stack.Children.Add(bothLabel);  
+            stack.Children.Add(underline);  
+            Content= stack; 
         }
     }
 }

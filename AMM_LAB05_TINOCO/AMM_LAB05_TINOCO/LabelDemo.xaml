@@ -4,9 +4,12 @@
              x:Class="AMM_LAB05_TINOCO.LabelDemo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="This is undelined text." TextDecorations="Underline"
+                   FontSize="Large"/>
+            <Label Text="This is text with strikethrough. " TextDecorations="Strikethrough"/>
+            <Label Text="This is underlined text with strikethrough."
+                   TextDecorations="Underline,Strikethrough"/>
+            <Label Text="Esto es una prueba" BackgroundColor="red"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
