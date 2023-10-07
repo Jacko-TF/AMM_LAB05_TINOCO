@@ -4,9 +4,7 @@
              x:Class="AMM_LAB05_TINOCO.LocalImage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="voley.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

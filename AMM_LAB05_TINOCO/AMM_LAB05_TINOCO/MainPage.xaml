@@ -13,7 +13,7 @@
 
             <StackLayout>
                 <Button x:Name="Item1" Text="ButtonDemo"/>
-                <Button x:Name="Item2" Text="ButtonDemo"/>
+                <Button x:Name="Item2" Text="ButtonCode"/>
                 <Button x:Name="Item4" Text="EditorDemo"/>
                 <Button x:Name="Item5" Text="EditorCode"/>
                 <Button x:Name="Item6" Text="EntryDemo"/>

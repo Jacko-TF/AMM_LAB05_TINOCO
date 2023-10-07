@@ -14,7 +14,7 @@ namespace AMM_LAB05_TINOCO.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.0.5")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.1.111")]
 	public partial class Resource
 	{
 		
@@ -16662,6 +16662,9 @@ namespace AMM_LAB05_TINOCO.Droid
 			
 			// aapt resource value: 0x7F07008F
 			public const int tooltip_frame_light = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int voley = 2131165328;
 			
 			static Drawable()
 			{
